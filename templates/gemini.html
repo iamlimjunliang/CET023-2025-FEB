@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Gemini Chatbot</h2>
+            <form action="/gemini" method="post">
+                <input type="text" name="q"/>
+                <input type="submit" value="Enter!"/>
+            </form>    
+            <p>Gemini's Response: {{ r }}</p>
+        </div>
+    </body>
+</html>
